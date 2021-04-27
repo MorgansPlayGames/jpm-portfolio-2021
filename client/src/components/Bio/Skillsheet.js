@@ -6,28 +6,32 @@ function getSkills(){
 }
 
 function Skillsheet() {
+
+    function skillMapper(skills){
+        return skills.map((x, i) => {return <span>{x.name}</span>})
+    }
     function skillDisplayInit(){
         let skills= getSkills();
-        let skillList = skills.front.map((x, i) =>{return <p>{x.name} {x.like}</p>})
-        let backSkillList= skills.back.map((x, i) =>{return <p>{x.name} {x.like}</p>})
+        let skillList = skillMapper(skills.front);
+        let backSkillList= skillMapper(skills.back);
         skillList.push(backSkillList);
         return skillList;
     }
     function skillDisplay(){
         let skills= getSkills();
-        let skillList = skills.front.map((x, i) =>{return <p>{x.name} {x.like}</p>})
-        let backSkillList= skills.back.map((x, i) =>{return <p>{x.name} {x.like}</p>})
+        let skillList = skillMapper(skills.front);
+        let backSkillList= skillMapper(skills.back);
         skillList.push(backSkillList);
         setSkillList(skillList);
     }
     function getFront(){
         let skills= getSkills();
-        let skillList = skills.front.map((x, i) =>{return <p>{x.name} {x.like}</p>})
+        let skillList = skillMapper(skills.front);
         setSkillList(skillList);
     }
     const getBack = ()=>{
         let skills= getSkills();
-        let skillList = skills.back.map((x, i) =>{return <p>{x.name} {x.like}</p>})
+        let skillList = skillMapper(skills.back);
         setSkillList(skillList);
     }
     const [skillsList, setSkillList] = useState(skillDisplayInit());
@@ -37,7 +41,10 @@ function Skillsheet() {
         <button onClick={skillDisplay}>All skills</button>
         <button onClick={getFront}>Display front end skills</button>
         <button onClick={getBack}>Display back end skills</button>
+        <p>Click a button for fun!</p>
+        <section id="skillList">
         {skillsList}
+        </section>
     </section>
 }
 

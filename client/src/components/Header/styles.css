@@ -1,0 +1,12 @@
+header {
+    background-color: skyblue;
+    border-bottom: solid purple 10px;
+}
+h1{
+    border-right: solid rgb(27, 31, 37) 50px;
+    border-left: solid rgb(27, 31, 37) 50px;
+    border-radius: 50% 0 50% 0;
+    width:300px;
+    margin: auto;
+    height: 50px;
+}

@@ -1,0 +1,20 @@
+.link {
+    margin: 1px;
+    padding: 2px;
+    background-color: purple;
+    border: solid black 2px;
+    color:whitesmoke;
+    height:fit-content;
+    border-radius: 20%;
+}
+
+nav {
+    background-color: plum;
+    display: flex;
+    position:sticky;
+    height: 2rem;
+    padding:auto;
+    justify-content: space-around;
+    width:100%;
+    top:0;
+}

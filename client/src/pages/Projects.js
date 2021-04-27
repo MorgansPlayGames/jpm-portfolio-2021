@@ -1,6 +1,8 @@
+import ProjectList from "../components/ProjectList"
+
 function Projects() {
   return <main>
-      <p>project List </p>
+      <ProjectList />
   </main>
 }
 
