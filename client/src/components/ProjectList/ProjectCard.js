@@ -4,7 +4,6 @@ function ProjectCard(props) {
       type: "show",
       projectNumber: props.project.id,
     });
-    console.log("set modal");
   }
   return (
     <div className="projectCard">

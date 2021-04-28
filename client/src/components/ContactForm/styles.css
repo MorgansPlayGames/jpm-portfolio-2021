@@ -1,0 +1,32 @@
+#contactForm{
+    background-color: darkorange;
+    width:fit-content;
+    margin: auto;
+}
+
+#contactForm input{
+    margin:auto;
+    min-width: 50%
+}
+
+#contactForm select{
+    margin:auto;
+    max-width: 260px;
+}
+
+#contactForm label {
+    margin:auto;
+    background-color: darkcyan;
+    margin-top:10px;
+}
+
+#contactForm section{
+    display:flex;
+    flex-direction: column;
+    
+}
+#contactForm textarea{
+    margin:auto;
+    max-width: 500px;
+    height:fit-content;
+}

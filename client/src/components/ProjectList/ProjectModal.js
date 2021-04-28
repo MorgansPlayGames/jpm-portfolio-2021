@@ -1,17 +1,33 @@
-import projectList from "../../lib/projectList"
+import projectList from "../../lib/projectList";
 
-function ProjectModal(props){
-    let projectNumber = props.modal.projectNumber;
-    let project = projectList[projectNumber];
-    console.log(projectNumber);
-    return <section>
-        <p>ProjectName: {project.name}</p>
-        <p>project description.</p>
-        <a>GitHubLink</a>
-        <a>LiveSite</a>
-        <p>Technology List</p>
-        <p>Full Size Image</p>
+function ProjectModal(props) {
+  function exitModal() {
+    props.setModalDisplay({
+      type: "hidden",
+      projectNumber:0
+    });
+  }
+
+  function liveSite(){
+      if(project.livesite) return <a href={project.livesite}>Live Website!</a>
+  }
+
+  let projectNumber = props.modal.projectNumber;
+  let project = projectList[projectNumber];
+
+  return (
+    <section id="modal" className={props.modal.type}>
+              <button onClick={exitModal}>Close</button>
+      <p>Project: {project.name}</p>
+      <p>Description: {project.description}</p>
+      <a href={project.gitlink}>GitHubLink</a>
+      {liveSite()}
+      <p>Technology List</p>
+      <img src={process.env.PUBLIC_URL + project.image}
+        alt={project.name}/>
+      <button onClick={exitModal}>Close</button>
     </section>
+  );
 }
 
-export default ProjectModal
+export default ProjectModal;

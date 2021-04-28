@@ -9,7 +9,7 @@ function ProjectList() {
   function handleClick(event) {
     let tech = event.target.attributes.tech.value;
     let list = [];
-    projectList.map((p) => {
+    projectList.forEach((p) => {
       for (let i = 0; i < p.technologies.length; i++) {
         if (tech === p.technologies[i]) {
           list.push(p);
@@ -21,10 +21,9 @@ function ProjectList() {
 
   //gets a list of technologies for projects I have used
   function getTechButtons() {
-    console.log("getting tech buttons");
     const technologies = [];
     projectList.forEach((p) => {
-      p.technologies.map((tech) => {
+      p.technologies.forEach((tech) => {
         let check = false;
         for (let i = 0; i < technologies.length; i++) {
           if (technologies[i] === tech) check = true;
@@ -32,9 +31,9 @@ function ProjectList() {
         if (check === false) technologies.push(tech);
       });
     });
-    return technologies.map((tech) => {
+    return technologies.map((tech, i) => {
       return (
-        <button onClick={handleClick} tech={tech}>
+        <button key={i} onClick={handleClick} tech={tech} >
           {tech}
         </button>
       );
@@ -50,9 +49,9 @@ function ProjectList() {
         <h2>Projects</h2>
         <p>Please select a technology filter!</p>
       {getTechButtons()}
-      <ProjectModal modal={modalDisplay}/>
-      {projectsView.map((p) => {
-        return <ProjectCard project={p} setModalDisplay={setModalDisplay} />;
+      <ProjectModal modal={modalDisplay} setModalDisplay={setModalDisplay}/>
+      {projectsView.map((p, i) => {
+        return <ProjectCard key={i} project={p} setModalDisplay={setModalDisplay} />;
       })}
     </>
   );
