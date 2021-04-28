@@ -1,21 +1,21 @@
 .projectCard img {
-    max-height: 240px;
-    max-width: 240px;
+  max-height: 240px;
+  max-width: 240px;
 }
 .hidden {
-    display:none;
+  display: none;
 }
 .show {
-    position: fixed;
-    background-color: crimson;
-    width:100%;
-    top:0;
-    left:0;
-    right:0
+  position: fixed;
+  background-color: crimson;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-button{
-    background-color: darkcyan;
-    border-radius: 20%;
-    padding: 2px;
-    margin: 2px;
+button {
+  background-color: darkcyan;
+  border-radius: 20%;
+  padding: 2px;
+  margin: 2px;
 }

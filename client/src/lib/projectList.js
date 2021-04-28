@@ -1,9 +1,9 @@
 const projList = [
-
   {
-    id:0,
+    id: 0,
     name: "Pixi (Third Group Project)",
-    description: "Project Three. E-commerse shop where users can buy and sell digital photography.",
+    description:
+      "Project Three. E-commerse shop where users can buy and sell digital photography.",
     gitlink: "https://github.com/ajlaursen/Pixi",
     livesite: "https://pixi.pics.com/",
     technologies: [
@@ -21,14 +21,15 @@ const projList = [
       "Passport",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
     ],
-    image:"/pixi1.png"
+    image: "/pixi1.png",
   },
   {
     id: 1,
     name: "Character Sheet Generator (Second Group Project)",
-    description: "Project two. Save character sheets in a database and access them anywhere with internet. Signup and login.",
+    description:
+      "Project two. Save character sheets in a database and access them anywhere with internet. Signup and login.",
     gitlink: "https://github.com/jasmineteters/Character-Sheet-Generator",
     livesite: "https://charactersheet-generator.herokuapp.com/",
     technologies: [
@@ -41,20 +42,28 @@ const projList = [
       "TailwindCSS",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
     ],
-    image:
-      "/CSG.jpg",
+    image: "/CSG.jpg",
   },
   {
     id: 2,
     name: "Parker's Googlebooks!",
-    description: "Full Stack app to search books from the googlebooks api and save them to a public mongo server",
+    description:
+      "Full Stack app to search books from the googlebooks api and save them to a public mongo server",
     gitlink: "https://github.com/MorgansPlayGames/parkers-googlebooks",
     livesite: "https://parkers-googlebooks.herokuapp.com/",
-    technologies: ["HTML", "CSS", "React", "Bootstrap", "JavaScript", "Mongo", "Node", "Axios"],
-    image:
-      "/googlebooksearch.png",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "Mongo",
+      "Node",
+      "Axios",
+    ],
+    image: "/googlebooksearch.png",
   },
   {
     id: 3,
@@ -63,8 +72,7 @@ const projList = [
     gitlink: "https://github.com/MorgansPlayGames/parkers-quiz",
     livesite: "https://morgansplaygames.github.io/parkers-quiz/index.html",
     technologies: ["Bootstrap", "HTML", "CSS", "JavaScript"],
-    image:
-      "/QuizGame.png",
+    image: "/QuizGame.png",
   },
   {
     id: 4,
@@ -73,8 +81,7 @@ const projList = [
     gitlink: "https://github.com/MorgansPlayGames/music-by-theme",
     livesite: "https://morgansplaygames.github.io/music-by-theme/",
     technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "AJAX"],
-    image:
-      "/Valence.jpg",
+    image: "/Valence.jpg",
   },
 ];
 

@@ -1,9 +1,11 @@
-import Bio from '../components/Bio'
+import Bio from "../components/Bio";
 
 function Home() {
-  return <main>
+  return (
+    <main>
       <Bio />
-  </main>;
+    </main>
+  );
 }
 
 export default Home;

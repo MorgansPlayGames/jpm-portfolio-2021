@@ -1,7 +1,9 @@
 function Home() {
-  return <main>
+  return (
+    <main>
       <p>I do hobbies</p>
-  </main>
+    </main>
+  );
 }
 
 export default Home;

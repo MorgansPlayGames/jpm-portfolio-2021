@@ -1,13 +1,13 @@
 header {
-    background-color: skyblue;
-    border-bottom: solid purple 10px;
+  background-color: skyblue;
+  border-bottom: solid purple 10px;
 }
-header h1{
-    border-right: solid rgb(27, 31, 37) 50px;
-    border-left: solid rgb(27, 31, 37) 50px;
-    border-radius: 50% 0 50% 0;
-    max-width:275px;
-    margin: auto;
-    height:50px;
-    max-height: 100px;
+header h1 {
+  border-right: solid rgb(27, 31, 37) 50px;
+  border-left: solid rgb(27, 31, 37) 50px;
+  border-radius: 50% 0 50% 0;
+  max-width: 275px;
+  margin: auto;
+  height: 50px;
+  max-height: 100px;
 }

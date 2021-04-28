@@ -14,7 +14,7 @@ function App() {
     <div className="App bg-gray-900 text-gray-200">
       <Router>
         <Header />
-        <div className ="container">
+        <div className="container">
           <Navbar />
           <div>
             <Route exact path="/" component={Home} />

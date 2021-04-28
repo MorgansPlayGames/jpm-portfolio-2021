@@ -2,7 +2,7 @@ import { useState } from "react";
 import projectList from "../../lib/projectList";
 import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
-import "./styles.css"
+import "./styles.css";
 
 function ProjectList() {
   //filters project list by technology
@@ -33,7 +33,7 @@ function ProjectList() {
     });
     return technologies.map((tech, i) => {
       return (
-        <button key={i} onClick={handleClick} tech={tech} >
+        <button key={i} onClick={handleClick} tech={tech}>
           {tech}
         </button>
       );
@@ -41,17 +41,19 @@ function ProjectList() {
   }
   const [projectsView, setProjectsView] = useState(projectList);
   const [modalDisplay, setModalDisplay] = useState({
-      type:"hidden",
-      projectNumber:0
-  })
+    type: "hidden",
+    projectNumber: 0,
+  });
   return (
     <>
-        <h2>Projects</h2>
-        <p>Please select a technology filter!</p>
+      <h2>Projects</h2>
+      <p>Please select a technology filter!</p>
       {getTechButtons()}
-      <ProjectModal modal={modalDisplay} setModalDisplay={setModalDisplay}/>
+      <ProjectModal modal={modalDisplay} setModalDisplay={setModalDisplay} />
       {projectsView.map((p, i) => {
-        return <ProjectCard key={i} project={p} setModalDisplay={setModalDisplay} />;
+        return (
+          <ProjectCard key={i} project={p} setModalDisplay={setModalDisplay} />
+        );
       })}
     </>
   );

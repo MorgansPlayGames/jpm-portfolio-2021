@@ -7,7 +7,7 @@ function History() {
         father is a programmer, and my mother is a photographer,
       </p>
     </main>
-  )
+  );
 }
 
 export default History;

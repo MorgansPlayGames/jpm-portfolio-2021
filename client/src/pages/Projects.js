@@ -1,9 +1,11 @@
-import ProjectList from "../components/ProjectList"
+import ProjectList from "../components/ProjectList";
 
 function Projects() {
-  return <main>
+  return (
+    <main>
       <ProjectList />
-  </main>
+    </main>
+  );
 }
 
 export default Projects;
