@@ -6,5 +6,26 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(78, 132, 214);
+  background-color: #8d91c7;
+  color: #fefffe;
+  
+}
+body {
+  background-color:#241e4e;
+}
+
+.navy1 {
+  background-color: #2e2181;
+}
+.blue1 {
+  background-color: #8d91c7;
+}
+.red1 {
+  background-color: #960200;
+}
+.yellow1 {
+  background-color: #e3b23c;
+}
+.white1 {
+  background-color: #fefffe;
 }

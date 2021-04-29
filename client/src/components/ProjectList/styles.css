@@ -7,15 +7,40 @@
 }
 .show {
   position: fixed;
-  background-color: crimson;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
 }
 button {
-  background-color: darkcyan;
-  border-radius: 20%;
-  padding: 2px;
-  margin: 2px;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+#modal {
+  margin:auto;
+  margin-top:5vh;
+  background-color: #2e2181;
+  height: 80vh;
+  overflow-y: auto;
+  border-radius:.5rem;
+  border : solid #8d91c7 4px;
+  
+}
+#modal img {
+  max-height: 500px;
+  max-width: 500px;
+  width: 75%
+}
+#modal button {
+  background-color: #960200;
+}
+#modal a {
+  background-color: #8d91c7;
+  padding: .5rem;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+.projectCard button {
+  background-color: #960200;
+  color: #fefffe
 }

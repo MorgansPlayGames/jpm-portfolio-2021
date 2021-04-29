@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 function ContactForm() {
   function resubmitCheck() {
     let time = localStorage.getItem("time");
-    console.log(time);
     if (!time) {
       setErrorMessage({ contact: "show" });
     } else {
@@ -43,11 +42,10 @@ function ContactForm() {
           console.log("Thank you for your submission!");
           let time = new Date();
           localStorage.setItem("time", time);
-          console.log("local storage cookie timed thing 24 hours");
         })
         .catch((err) => {
           // probably need a better way to notify on this error
-          console.log("err", err);
+          // console.log("err", err);
         });
     } else if (payload.name === "" && !emailValid) {
       setErrorMessage({
@@ -75,7 +73,7 @@ function ContactForm() {
 
   useEffect(()=> {
     resubmitCheck()
-  })
+  }, [])
 
   return (
     <>
@@ -107,7 +105,7 @@ function ContactForm() {
               name="contactName"
             />
             {errorMessage.nameError === "show" ? (
-              <sub id="nameError">Please enter a name</sub>
+              <sub id="nameError" className="errorMsg">Please enter a name</sub>
             ) : null}
           </section>
           <section>
@@ -119,7 +117,7 @@ function ContactForm() {
               name="contactEmail"
             />
             {errorMessage.emailError === "show" ? (
-              <sub id="emailError">Please enter a valid email</sub>
+              <sub id="emailError" className="errorMsg">Please enter a valid email</sub>
             ) : null}
           </section>
           <section>

@@ -1,5 +1,4 @@
 function History() {
-  console.log(window)
   return (
     <main>
       <p>

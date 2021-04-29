@@ -3,7 +3,8 @@ import "./styles.css";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="blue1">
+
       <Link to="/" className="link">
         Home
       </Link>
@@ -19,6 +20,7 @@ function Navbar() {
       <Link to="/contact" className="link">
         Contact me
       </Link>
+
       {/* <a href="https://github.com/MorgansPlayGames" target="_blank">Github</a>
       <a href="https://www.linkedin.com/in/parker-morgan-18ab5b1b4" target="_blank">Linkedin</a> */}
     </nav>

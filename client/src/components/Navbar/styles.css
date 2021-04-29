@@ -1,15 +1,14 @@
 .link {
   margin: 1px;
   padding: 2px;
-  background-color: purple;
   border: solid black 2px;
-  color: whitesmoke;
+  color: #fefffe;
   height: fit-content;
   border-radius: 20%;
+  background-color: #241e4e;
 }
 
 nav {
-  background-color: plum;
   display: flex;
   position: sticky;
   height: 2rem;

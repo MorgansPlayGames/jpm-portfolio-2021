@@ -5,20 +5,45 @@
   margin: 0 10% 0 10%;
   height: auto;
   width: auto;
-  background-color: green;
   border-radius: 10%;
+}
+#skillSheet button {
+  color: #fefffe;
+  padding:8px;
 }
 
 #skillList span {
-  background-color: rgba(63, 20, 220, 0.336);
   margin: 0.5em;
   padding: 0.5em;
   height: fit-content;
   border-radius: 70% 10% 50% 0;
-  color: gold;
+  box-shadow: 3px 3px #241e4e ;
 }
 
-img {
+ #headshot {
   width: 100%;
   max-width: 300px;
+  border-radius: 40%;
+  box-shadow: 16px -16px #241e4e ;
+}
+
+#skillSheet {
+  color: #fefffe;
+  border-radius:1rem 1rem 1rem 1rem;
+  box-shadow: 3px 3px #241e4e ;
+}
+
+#Bio h3, #Bio h4 {
+  text-align: justify;
+  text-align:left
+}
+#Bio p {
+  color:black;
+  padding-top: 1rem
+}
+#Bio .introduction {
+  margin-left:10%;
+  padding:2rem;
+  margin:3rem;
+  border-radius: 2rem;
 }

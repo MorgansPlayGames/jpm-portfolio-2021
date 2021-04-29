@@ -33,7 +33,7 @@ function ProjectList() {
     });
     return technologies.map((tech, i) => {
       return (
-        <button key={i} onClick={handleClick} tech={tech}>
+        <button key={i} onClick={handleClick} tech={tech} className="yellow1">
           {tech}
         </button>
       );

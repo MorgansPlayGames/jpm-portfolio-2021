@@ -2,7 +2,7 @@ import ContactForm from "../components/ContactForm";
 
 function Contact() {
   return (
-    <main>
+    <main id="contactPage">
       <div className="h-16 text-4xl"></div>
       <p className="text-2xl p-4 m-4 bg-gray-800">
         Looking to hire a full stack developer?

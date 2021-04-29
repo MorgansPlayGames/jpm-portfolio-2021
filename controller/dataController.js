@@ -2,7 +2,6 @@ Contact = require("../models/Contact");
 
 module.exports = {
   createContact: async function (req, res) {
-      console.log(req);
     try {
       const newContact = req.body;
       const addedContact = await Contact.create(newContact);

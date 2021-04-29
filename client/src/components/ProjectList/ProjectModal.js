@@ -12,6 +12,13 @@ function ProjectModal(props) {
     if (project.livesite) return <a href={project.livesite}>Live Website!</a>;
   }
 
+  function techList(){
+    let list = project.technologies.map((tech, i) =>{
+      return <span key={i}>{tech} </span>
+    })
+    return list;
+  }
+
   let projectNumber = props.modal.projectNumber;
   let project = projectList[projectNumber];
 
@@ -22,10 +29,12 @@ function ProjectModal(props) {
       <p>Description: {project.description}</p>
       <a href={project.gitlink}>GitHubLink</a>
       {liveSite()}
-      <p>Technology List</p>
+      <p>Technology List: {techList()}</p>
       <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
+      <div>
       <button onClick={exitModal}>Close</button>
-    </section>
+      </div>
+  </section>
   );
 }
 

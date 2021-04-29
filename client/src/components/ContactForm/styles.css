@@ -1,5 +1,8 @@
+#contactPage{ 
+  color:black;
+}
+
 #contactForm {
-  background-color: darkorange;
   width: fit-content;
   margin: auto;
 }
@@ -16,7 +19,6 @@
 
 #contactForm label {
   margin: auto;
-  background-color: darkcyan;
   margin-top: 10px;
 }
 
@@ -28,4 +30,7 @@
   margin: auto;
   max-width: 500px;
   height: fit-content;
+}
+#contactForm .errorMsg{
+  color:#960200;
 }

@@ -8,7 +8,7 @@ async function contactFormSend(contact) {
     })
       .then(function (res) {})
       .catch(function (err) {
-        console.log(err);
+        // console.log(err);
         console.log("respond with try again")
       });
   };
