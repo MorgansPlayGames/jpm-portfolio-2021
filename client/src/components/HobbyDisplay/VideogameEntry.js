@@ -19,8 +19,8 @@ function VideogameEntry(props) {
           <h2>{entry.name}</h2>
           <h4>{entry.subtitle}</h4>
           <p>{entry.history}</p>
-          <p>{entry.timePlayed}</p>
-          <p>{entry.amountPlayed}</p>
+          <p>Date played {entry.timePlayed}</p>
+          <p>How much I played {entry.amountPlayed}</p>
         </div>
       )}
       <button onClick={handleClick}>Toggle Entry</button>

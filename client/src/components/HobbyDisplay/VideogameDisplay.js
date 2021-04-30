@@ -24,7 +24,7 @@ function VideogameDisplay() {
   }
 
   return (
-    <section>
+    <section className="display">
       {openDisplay.main === "closed" ? (
         <h2>Videogame!?</h2>
       ) : (

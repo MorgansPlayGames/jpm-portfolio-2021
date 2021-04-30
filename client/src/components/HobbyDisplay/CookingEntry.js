@@ -19,7 +19,7 @@ function CookingEntry(props) {
           <h2>{entry.name}</h2>
           <h4>{entry.subtitle}</h4>
           <p>{entry.experience}</p>
-          <p>{entry.time}</p>
+          <p>Time: {entry.time}</p>
         </div>
       )}
       <button onClick={handleClick}>Toggle Entry</button>

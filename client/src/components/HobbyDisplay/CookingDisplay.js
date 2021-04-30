@@ -25,7 +25,7 @@ function CookingDisplay() {
   }
 
   return (
-    <section>
+    <section className="display">
       {openDisplay.main === "closed" ? (
         <h2>Foodie Stuff</h2>
       ) : (

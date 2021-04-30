@@ -24,7 +24,7 @@ function TabletopDisplay() {
   }
 
   return (
-    <section>
+    <section className="display">
       {openDisplay.main === "closed" ? (
         <h2>Tabletop Gaming</h2>
       ) : (

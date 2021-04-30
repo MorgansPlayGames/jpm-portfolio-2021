@@ -19,8 +19,8 @@ function TabletopEntry(props) {
           <h2>{entry.name}</h2>
           <h4>{entry.subtitle}</h4>
           <p>{entry.experience}</p>
-          <p>{entry.time}</p>
-          <p>{entry.gameType}</p>
+          <p>Time: {entry.time}</p>
+          <p>Gametype: {entry.gameType}</p>
           <div>
             Tags:
             {entry.tags ? (

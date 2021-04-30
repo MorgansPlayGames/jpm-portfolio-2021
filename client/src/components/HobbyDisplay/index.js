@@ -1,4 +1,4 @@
-//import "./styles"
+import "./styles.css";
 import TabletopDisplay from "./TabletopDisplay";
 import CookingDisplay from "./CookingDisplay";
 import VideogameDisplay from "./VideogameDisplay";

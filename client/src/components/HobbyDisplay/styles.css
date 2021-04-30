@@ -1,0 +1,13 @@
+.display {
+    background-color:#e3b23c;
+    margin: 1rem;
+    padding:1rem;
+    border-radius: .5rem;
+}
+
+.entry {
+    background-color: #8d91c7;
+    margin: 1rem;
+    padding:1rem;
+    border-radius: .5rem;
+}

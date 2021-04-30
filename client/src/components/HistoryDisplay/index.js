@@ -10,7 +10,7 @@ function HistoryDisplay() {
   }
 
   return (
-    <section>
+    <section className="display">
       <h2>Experiences and funny stories I have</h2>
       {makeList()}
     </section>
