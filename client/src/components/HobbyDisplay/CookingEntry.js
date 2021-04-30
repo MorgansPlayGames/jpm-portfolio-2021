@@ -16,11 +16,11 @@ function CookingEntry(props) {
         </div>
       ) : (
         <div>
-        <h2>{entry.name}</h2>
-        <h4>{entry.subtitle}</h4>
-        <p>{entry.experience}</p>
-        <p>{entry.time}</p>
-      </div>
+          <h2>{entry.name}</h2>
+          <h4>{entry.subtitle}</h4>
+          <p>{entry.experience}</p>
+          <p>{entry.time}</p>
+        </div>
       )}
       <button onClick={handleClick}>Toggle Entry</button>
     </div>

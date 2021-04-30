@@ -71,9 +71,9 @@ function ContactForm() {
     contact: "hidden",
   });
 
-  useEffect(()=> {
-    resubmitCheck()
-  }, [])
+  useEffect(() => {
+    resubmitCheck();
+  }, []);
 
   return (
     <>
@@ -105,7 +105,9 @@ function ContactForm() {
               name="contactName"
             />
             {errorMessage.nameError === "show" ? (
-              <sub id="nameError" className="errorMsg">Please enter a name</sub>
+              <sub id="nameError" className="errorMsg">
+                Please enter a name
+              </sub>
             ) : null}
           </section>
           <section>
@@ -117,7 +119,9 @@ function ContactForm() {
               name="contactEmail"
             />
             {errorMessage.emailError === "show" ? (
-              <sub id="emailError" className="errorMsg">Please enter a valid email</sub>
+              <sub id="emailError" className="errorMsg">
+                Please enter a valid email
+              </sub>
             ) : null}
           </section>
           <section>

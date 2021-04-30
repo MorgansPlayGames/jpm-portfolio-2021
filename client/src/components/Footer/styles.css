@@ -1,11 +1,11 @@
 footer a {
-    background-color: #8d91c7;
-    margin:1rem;
-    padding:1rem;
-    border-radius: .5rem;
-    box-shadow: black 5px 5px;
+  background-color: #8d91c7;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: black 5px 5px;
 }
 footer {
-    padding:1rem;
-    margin:.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
 }

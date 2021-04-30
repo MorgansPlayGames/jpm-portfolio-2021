@@ -1,4 +1,4 @@
-import HobbyDisplay from "../components/HobbyDisplay"
+import HobbyDisplay from "../components/HobbyDisplay";
 
 function Home() {
   return (

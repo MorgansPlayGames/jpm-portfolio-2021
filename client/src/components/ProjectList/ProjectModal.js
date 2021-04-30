@@ -9,13 +9,18 @@ function ProjectModal(props) {
   }
 
   function liveSite() {
-    if (project.livesite) return <a href={project.livesite} target="_blank" rel="noreferrer">Live Website!</a>;
+    if (project.livesite)
+      return (
+        <a href={project.livesite} target="_blank" rel="noreferrer">
+          Live Website!
+        </a>
+      );
   }
 
-  function techList(){
-    let list = project.technologies.map((tech, i) =>{
-      return <span key={i}>{tech} </span>
-    })
+  function techList() {
+    let list = project.technologies.map((tech, i) => {
+      return <span key={i}>{tech} </span>;
+    });
     return list;
   }
 
@@ -27,14 +32,16 @@ function ProjectModal(props) {
       <button onClick={exitModal}>Close</button>
       <p>Project: {project.name}</p>
       <p>Description: {project.description}</p>
-      <a href={project.gitlink} target="_blank" rel="noreferrer">GitHubLink</a>
+      <a href={project.gitlink} target="_blank" rel="noreferrer">
+        GitHubLink
+      </a>
       {liveSite()}
       <p>Technology List: {techList()}</p>
       <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />
       <div>
-      <button onClick={exitModal}>Close</button>
+        <button onClick={exitModal}>Close</button>
       </div>
-  </section>
+    </section>
   );
 }
 

@@ -16,18 +16,22 @@ function TabletopEntry(props) {
         </div>
       ) : (
         <div>
-        <h2>{entry.name}</h2>
-        <h4>{entry.subtitle}</h4>
-        <p>{entry.experience}</p>
-        <p>{entry.time}</p>
-        <p>{entry.gameType}</p>
-        <div>Tags: 
-        {(entry.tags) ? entry.tags.map((tag, i)=>{
-            return <span key={i}>{tag.name} </span>
-        })
-        : <p>no tags associated with post</p>}
-      </div>
-      </div>
+          <h2>{entry.name}</h2>
+          <h4>{entry.subtitle}</h4>
+          <p>{entry.experience}</p>
+          <p>{entry.time}</p>
+          <p>{entry.gameType}</p>
+          <div>
+            Tags:
+            {entry.tags ? (
+              entry.tags.map((tag, i) => {
+                return <span key={i}>{tag.name} </span>;
+              })
+            ) : (
+              <p>no tags associated with post</p>
+            )}
+          </div>
+        </div>
       )}
       <button onClick={handleClick}>Toggle Entry</button>
     </div>

@@ -8,7 +8,11 @@ function getSkills() {
 function Skillsheet() {
   function skillMapper(skills) {
     return skills.map((x, i) => {
-      return <span key={i} className="yellow1">{x.name}</span>;
+      return (
+        <span key={i} className="yellow1">
+          {x.name}
+        </span>
+      );
     });
   }
   function skillDisplayInit() {
@@ -40,9 +44,15 @@ function Skillsheet() {
   return (
     <section className="red1" id="skillSheet">
       <p>Click a button for fun!</p>
-      <button className="blue1" onClick={skillDisplay}>All skills</button>
-      <button className="blue1" onClick={getFront}>Display front end skills</button>
-      <button className="blue1" onClick={getBack}>Display back end skills</button>
+      <button className="blue1" onClick={skillDisplay}>
+        All skills
+      </button>
+      <button className="blue1" onClick={getFront}>
+        Display front end skills
+      </button>
+      <button className="blue1" onClick={getBack}>
+        Display back end skills
+      </button>
       <section id="skillList">{skillsList}</section>
     </section>
   );

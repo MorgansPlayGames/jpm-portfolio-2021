@@ -4,7 +4,6 @@ import "./styles.css";
 function Navbar() {
   return (
     <nav className="blue1">
-
       <Link to="/" className="link">
         Home
       </Link>

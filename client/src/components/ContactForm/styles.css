@@ -1,5 +1,5 @@
-#contactPage{ 
-  color:black;
+#contactPage {
+  color: black;
 }
 
 #contactForm {
@@ -31,6 +31,6 @@
   max-width: 500px;
   height: fit-content;
 }
-#contactForm .errorMsg{
-  color:#960200;
+#contactForm .errorMsg {
+  color: #960200;
 }

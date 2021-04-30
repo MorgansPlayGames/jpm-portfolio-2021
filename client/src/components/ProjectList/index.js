@@ -51,11 +51,15 @@ function ProjectList() {
       {getTechButtons()}
       <ProjectModal modal={modalDisplay} setModalDisplay={setModalDisplay} />
       <section id="projectList">
-      {projectsView.map((p, i) => {
-        return (
-          <ProjectCard key={i} project={p} setModalDisplay={setModalDisplay} />
-        );
-      })}
+        {projectsView.map((p, i) => {
+          return (
+            <ProjectCard
+              key={i}
+              project={p}
+              setModalDisplay={setModalDisplay}
+            />
+          );
+        })}
       </section>
     </>
   );
