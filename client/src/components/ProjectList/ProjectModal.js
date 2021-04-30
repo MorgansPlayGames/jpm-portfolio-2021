@@ -9,7 +9,7 @@ function ProjectModal(props) {
   }
 
   function liveSite() {
-    if (project.livesite) return <a href={project.livesite}>Live Website!</a>;
+    if (project.livesite) return <a href={project.livesite} target="_blank" rel="noreferrer">Live Website!</a>;
   }
 
   function techList(){
@@ -27,7 +27,7 @@ function ProjectModal(props) {
       <button onClick={exitModal}>Close</button>
       <p>Project: {project.name}</p>
       <p>Description: {project.description}</p>
-      <a href={project.gitlink}>GitHubLink</a>
+      <a href={project.gitlink} target="_blank" rel="noreferrer">GitHubLink</a>
       {liveSite()}
       <p>Technology List: {techList()}</p>
       <img src={process.env.PUBLIC_URL + project.image} alt={project.name} />

@@ -50,11 +50,13 @@ function ProjectList() {
       <p>Please select a technology filter!</p>
       {getTechButtons()}
       <ProjectModal modal={modalDisplay} setModalDisplay={setModalDisplay} />
+      <section id="projectList">
       {projectsView.map((p, i) => {
         return (
           <ProjectCard key={i} project={p} setModalDisplay={setModalDisplay} />
         );
       })}
+      </section>
     </>
   );
 }

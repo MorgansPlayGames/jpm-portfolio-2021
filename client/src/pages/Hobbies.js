@@ -1,7 +1,9 @@
+import HobbyDisplay from "../components/HobbyDisplay"
+
 function Home() {
   return (
     <main>
-      <p>I do hobbies</p>
+      <HobbyDisplay />
     </main>
   );
 }

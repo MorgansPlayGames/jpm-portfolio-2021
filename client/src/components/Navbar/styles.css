@@ -1,5 +1,5 @@
 .link {
-  margin: 1px;
+  margin: 4px;
   padding: 2px;
   border: solid black 2px;
   color: #fefffe;
@@ -12,8 +12,9 @@ nav {
   display: flex;
   position: sticky;
   height: 2rem;
-  padding: auto;
+
   justify-content: space-around;
   width: 100%;
   top: 0;
+
 }
