@@ -23,7 +23,7 @@ const projList = [
       "TailwindCSS",
       "Passport",
     ],
-    image: "/pixi1.png",
+    image: "images/pixi1.png",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const projList = [
       "CSS",
       "JavaScript",
     ],
-    image: "/CSG.jpg",
+    image: "images/CSG.jpg",
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ const projList = [
       "Node",
       "Axios",
     ],
-    image: "/googlebooksearch.png",
+    image: "images/googlebooksearch.png",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const projList = [
     gitlink: "https://github.com/MorgansPlayGames/parkers-quiz",
     livesite: "https://morgansplaygames.github.io/parkers-quiz/index.html",
     technologies: ["Bootstrap", "HTML", "CSS", "JavaScript"],
-    image: "/QuizGame.png",
+    image: "images/QuizGame.png",
   },
   {
     id: 4,
@@ -81,7 +81,7 @@ const projList = [
     gitlink: "https://github.com/MorgansPlayGames/music-by-theme",
     livesite: "https://morgansplaygames.github.io/music-by-theme/",
     technologies: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "AJAX"],
-    image: "/Valence.jpg",
+    image: "images/Valence.jpg",
   },
 ];
 

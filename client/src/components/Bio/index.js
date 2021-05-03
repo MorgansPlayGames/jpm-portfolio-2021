@@ -30,7 +30,7 @@ function Bio() {
       <section>
         <img
           id="headshot"
-          src={process.env.PUBLIC_URL + "ParkerHeadshot.jpg"}
+          src={process.env.PUBLIC_URL + "images/ParkerHeadshot.jpg"}
           alt="Parker's headshot"
         />
       </section>

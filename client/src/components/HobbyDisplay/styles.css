@@ -11,3 +11,7 @@
     padding:1rem;
     border-radius: .5rem;
 }
+
+.entry img {
+    max-width:100%
+}

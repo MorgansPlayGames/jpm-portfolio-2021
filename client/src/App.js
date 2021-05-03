@@ -9,6 +9,7 @@ import History from "./pages/History";
 import Projects from "./pages/Projects";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
+import Playground from "./pages/Playground";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/hobbies" component={Hobbies} />
             <Route exact path="/history" component={History} />
             <Route exact path="/projects" component={Projects} />
+            <Route exact path="/playground" component={Playground} />
           </div>
         </div>
         <Footer />
