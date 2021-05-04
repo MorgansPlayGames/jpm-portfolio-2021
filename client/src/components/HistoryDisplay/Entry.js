@@ -18,7 +18,16 @@ function Entry(props) {
         <div>
           <h2>{entry.title}</h2>
           <h4>{entry.subtitle}</h4>
-          <p>{entry.story}</p>
+          <div>
+            Story
+            {entry.story ? (
+              entry.story.map((text, i) => {
+                return <p key={i}>{text} </p>;
+              })
+            ) : (
+              <p>no entry? Why is this here?</p>
+            )}
+          </div>
           <div>
             Tags:
             {entry.tags ? (
