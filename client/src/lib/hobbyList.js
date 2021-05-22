@@ -3,6 +3,72 @@ const hobbyList = [
     type: "animation",
     list: [
       {
+        name: "Smash Broez",
+        subtitle: "Fast multiple armature animation with smoke effect",
+        link: "animations/fight.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Rick",
+        subtitle: "Floating Rigged figure with cloth mesh and psychedelic backround",
+        link: "animations/Rick.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Starboy",
+        subtitle: "Rainbow walking hairy starfish",
+        link: "animations/Starboy.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Disco Ball",
+        subtitle: "Reflective surface with light particles",
+        link: "animations/DiscoLights.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Spongeboy",
+        subtitle: "Dimention shaders for BG and multiple layers",
+        link: "animations/spongeboy.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "T-rex",
+        subtitle: "Run cycle with a sculpted dinosaur",
+        link: "animations/Trex.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Floof Cat Glowy Eyes",
+        subtitle: "Cat with way too much fur rendered",
+        link: "animations/catfurry.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Funky Cup",
+        subtitle: "Glass and light rendering",
+        link: "animations/funkycup.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Sad Fuzzy Guy",
+        subtitle: "Longer hair walk cycle",
+        link: "animations/fuzwalksad.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "DankeyKang",
+        subtitle: "4 Leg walk cycle and hair",
+        link: "animations/DonkeyKong.mp4",
+        fileType: "mp4",
+      },
+      {
+        name: "Among Friends",
+        subtitle: "Fun Walk Cycle",
+        link: "animations/AmongUs.mp4",
+        fileType: "mp4",
+      },
+      {
         name: "Rolling Box",
         subtitle: "Dimention practice",
         link: "animations/Box.gif",

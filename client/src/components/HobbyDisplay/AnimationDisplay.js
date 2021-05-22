@@ -29,7 +29,7 @@ function AnimationDisplay() {
         <h2>Animations</h2>
       ) : (
         <div>
-          <h2>2D Animations</h2>
+          <h2>Animations</h2>
           {getDisplay()}
         </div>
       )}

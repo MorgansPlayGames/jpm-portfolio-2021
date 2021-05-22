@@ -18,8 +18,13 @@ function AnimationEntry(props) {
         <div>
           <h2>{entry.name}</h2>
           <h4>{entry.subtitle}</h4>
-          <img src={process.env.PUBLIC_URL + entry.link} alt={entry.name} />
-        </div>
+          {!(entry.fileType) 
+          ? <img src={process.env.PUBLIC_URL + entry.link} alt={entry.name} />
+          : <video src={process.env.PUBLIC_URL + entry.link} controls>
+          <p>Your browser doesn't support HTML5 video. Here is a <a href={process.env.PUBLIC_URL + entry.link}>link to the video</a> instead.</p>
+        </video>
+          }
+          </div>
       )}
       <button onClick={handleClick}>Toggle Entry</button>
     </div>
