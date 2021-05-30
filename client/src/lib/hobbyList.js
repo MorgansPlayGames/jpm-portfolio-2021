@@ -3,6 +3,48 @@ const hobbyList = [
     type: "animation",
     list: [
       {
+        name:"Texture Examples",
+        subtitle: "Using nodes, created some fun textures",
+        link:"animations/ballTextures.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Jellyfish",
+        subtitle: "Used cloth and hair physics to make a jellyfish",
+        link:"animations/JellyFish.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Waterfall Text",
+        subtitle: "Using water physics, and displacement to create some cool text",
+        link:"animations/AlexWater.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Scultping of Myself",
+        subtitle: "Colab, my wife sculpted me, so I textured and animated.",
+        link:"animations/LisaFirst.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Rue Goal Burg",
+        subtitle: "Softbody physics rolling ball",
+        link:"animations/ballroll.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Glass of liquid drop",
+        subtitle: "Used glass texture to make a cup and simulated some water splashing inside",
+        link:"animations/glasswater.mp4",
+        fileType:"mp4"
+      },
+      {
+        name:"Splashes",
+        subtitle: "Different shapes and modifiers on liquid physics.",
+        link:"animations/splash.mp4",
+        fileType:"mp4"
+      },
+      {
         name: "Smash Broez",
         subtitle: "Fast multiple armature animation with smoke effect",
         link: "animations/fight.mp4",

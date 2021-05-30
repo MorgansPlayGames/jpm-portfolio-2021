@@ -24,6 +24,9 @@ function Footer() {
       >
         Resume
       </a>
+      <a href = "mailto:jpmaster13@msn.com">
+Jpmaster13@msn.com
+</a>
     </footer>
   );
 }
