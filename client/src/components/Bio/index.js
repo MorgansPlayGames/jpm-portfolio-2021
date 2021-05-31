@@ -7,11 +7,11 @@ function Bio() {
     <>
       <section id="Bio">
         <div className="introduction navy1">
-          <h3>Hello! I am Parker, I'm full stack developer.</h3>
+          <h3>Hello! I am Parker, I'm a full stack developer.</h3>
           <h4>I can create a website, or update an existing one.</h4>
           <h4>I can design and set up a database.</h4>
           <h4>I can create an API to submit and recieve data.</h4>
-          <h4>and I can also debug and review code!</h4>
+          <h4>I also do 3D animation!</h4>
         </div>
         <Skillsheet />
         <p>

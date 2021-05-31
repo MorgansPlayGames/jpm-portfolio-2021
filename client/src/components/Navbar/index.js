@@ -11,7 +11,7 @@ function Navbar() {
         Projects
       </Link>
       <Link to="/hobbies" className="link">
-        Hobbies
+        Animations and Hobbies
       </Link>
       <Link to="/history" className="link">
         History
