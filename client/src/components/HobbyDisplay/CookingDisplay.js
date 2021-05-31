@@ -9,7 +9,7 @@ function CookingDisplay() {
 
   function handleClick(e) {
     let displayName = e.target.value;
-    console.log(openDisplay);
+    // console.log(openDisplay);
     openDisplay[displayName] === "closed"
       ? setOpenDisplay({ [displayName]: "open" })
       : setOpenDisplay({ [displayName]: "closed" });
