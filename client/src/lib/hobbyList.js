@@ -5,109 +5,109 @@ const hobbyList = [
       {
         name:"Texture Examples",
         subtitle: "Using nodes, created some fun textures",
-        link:"animations/ballTextures.mp4",
+        link:"https://drive.google.com/file/d/12ga_zqgv8bCNpc7GHuDseEfUeoquqry5/preview",
         fileType:"mp4"
       },
       {
         name:"Jellyfish",
         subtitle: "Used cloth and hair physics to make a jellyfish",
-        link:"animations/JellyFish.mp4",
+        link:"https://drive.google.com/file/d/1iGPKE1NJKJXh7CyOTN3PA0EqfuhqBfKZ/preview",
         fileType:"mp4"
       },
       {
         name:"Waterfall Text",
         subtitle: "Using water physics, and displacement to create some cool text",
-        link:"animations/AlexWater.mp4",
+        link: "https://drive.google.com/file/d/139xBW2f4lZ6c1KvqL_mSukVsOX1LxuQ_/preview",
         fileType:"mp4"
       },
       {
         name:"Scultping of Myself",
         subtitle: "Colab, my wife sculpted me, so I textured and animated.",
-        link:"animations/LisaFirst.mp4",
+        link:"https://drive.google.com/file/d/1eDmVZfGxz-tNm-E1a0Zh5P25-nH8eSyx/preview",
         fileType:"mp4"
       },
       {
         name:"Rue Goal Burg",
         subtitle: "Softbody physics rolling ball",
-        link:"animations/ballroll.mp4",
+        link:"https://drive.google.com/file/d/1LpMdT0Y5Yo9ZyWiZ0LNYfYxu6QUyNhhr/preview",
         fileType:"mp4"
       },
       {
         name:"Glass of liquid drop",
         subtitle: "Used glass texture to make a cup and simulated some water splashing inside",
-        link:"animations/glasswater.mp4",
+        link:"https://drive.google.com/file/d/11iV0a_adho7x5Sps0bMGA9ooMUX948DE/preview",
         fileType:"mp4"
       },
       {
         name:"Splashes",
         subtitle: "Different shapes and modifiers on liquid physics.",
-        link:"animations/splash.mp4",
+        link:"https://drive.google.com/file/d/1jCK6YEtZDMLwXWgdGZLm6BaiF2oWoKOc/preview",
         fileType:"mp4"
       },
       {
         name: "Smash Broez",
         subtitle: "Fast multiple armature animation with smoke effect",
-        link: "animations/fight.mp4",
+        link: "https://drive.google.com/file/d/19TINFNnm1uakmY_obURhx_K5IXZ8HWT6/preview",
         fileType: "mp4",
       },
       {
         name: "Rick",
         subtitle: "Floating Rigged figure with cloth mesh and psychedelic backround",
-        link: "animations/Rick.mp4",
+        link: "https://drive.google.com/file/d/1wwgEw0B5bCH87FQHu8mB9o9c6iIwCBGI/preview",
         fileType: "mp4",
       },
       {
         name: "Starboy",
         subtitle: "Rainbow walking hairy starfish",
-        link: "animations/Starboy.mp4",
+        link: "https://drive.google.com/file/d/1tfCWeiUntAUW70X0WPNi1bG9IliuShL_/preview",
         fileType: "mp4",
       },
       {
         name: "Disco Ball",
         subtitle: "Reflective surface with light particles",
-        link: "animations/DiscoLights.mp4",
+        link: "https://drive.google.com/file/d/1AveUkIACh7I08911wxrHQ7hYdNC0PSq4/preview",
         fileType: "mp4",
       },
       {
         name: "Spongeboy",
         subtitle: "Dimention shaders for BG and multiple layers",
-        link: "animations/spongeboy.mp4",
+        link: "https://drive.google.com/file/d/1SVrNCw_jyle2bTos8Jz48sNi4I89gieJ/preview",
         fileType: "mp4",
       },
       {
         name: "T-rex",
         subtitle: "Run cycle with a sculpted dinosaur",
-        link: "animations/Trex.mp4",
+        link: "https://drive.google.com/file/d/1LNYFlOvVZr8ew8hXro1TOU3UXPgDG7As/preview",
         fileType: "mp4",
       },
       {
         name: "Floof Cat Glowy Eyes",
         subtitle: "Cat with way too much fur rendered",
-        link: "animations/catfurry.mp4",
+        link: "https://drive.google.com/file/d/1bce8-KR8EbS2X6RyHlBQgqI9z0CWRh2x/preview",
         fileType: "mp4",
       },
       {
         name: "Funky Cup",
         subtitle: "Glass and light rendering",
-        link: "animations/funkycup.mp4",
+        link: "https://drive.google.com/file/d/1vn3_hZCQg-tR1Pc-S1mF1A8Hde3b4WeV/preview",
         fileType: "mp4",
       },
       {
         name: "Sad Fuzzy Guy",
         subtitle: "Longer hair walk cycle",
-        link: "animations/fuzwalksad.mp4",
+        link: "https://drive.google.com/file/d/10YHr2DS4lz6tKdZPed0weGjuuYp-EKXt/preview",
         fileType: "mp4",
       },
       {
         name: "DankeyKang",
         subtitle: "4 Leg walk cycle and hair",
-        link: "animations/DonkeyKong.mp4",
+        link: "https://drive.google.com/file/d/1mRyVDhJEGEV6pT0q27zyeOhR4vvCdXcv/preview",
         fileType: "mp4",
       },
       {
         name: "Among Friends",
         subtitle: "Fun Walk Cycle",
-        link: "animations/AmongUs.mp4",
+        link: "https://drive.google.com/file/d/1UkCr1Cwz3Owr1w4Tyr4YL6gwugHxEEtX/preview",
         fileType: "mp4",
       },
       {

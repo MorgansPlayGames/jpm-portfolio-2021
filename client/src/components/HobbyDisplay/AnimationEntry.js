@@ -20,9 +20,7 @@ function AnimationEntry(props) {
           <h4>{entry.subtitle}</h4>
           {!(entry.fileType) 
           ? <img src={process.env.PUBLIC_URL + entry.link} alt={entry.name} />
-          : <video src={process.env.PUBLIC_URL + entry.link} controls>
-          <p>Your browser doesn't support HTML5 video. Here is a <a href={process.env.PUBLIC_URL + entry.link}>link to the video</a> instead.</p>
-        </video>
+          : <iframe src={entry.link} width="640" height="480"></iframe>
           }
           </div>
       )}
