@@ -3,6 +3,18 @@ const hobbyList = [
     type: "animation",
     list: [
       {
+        name:"Geometry Nodes 2",
+        subtitle: "Geometry nodes. Now I can use mathematics to generate graphics",
+        link:"https://drive.google.com/file/d/1Kwjus1WRneGHjlI8HqgqjesKdkq-iS_m/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Geometry Nodes rainbow",
+        subtitle: "Geometry nodes first try, happy pride",
+        link:"https://drive.google.com/file/d/1LS9W92PSBa-wF4DxA137Rl0qyeYHvqUK/preview",
+        fileType:"mp4"
+      },
+      {
         name:"Texture Examples",
         subtitle: "Using nodes, created some fun textures",
         link:"https://drive.google.com/file/d/12ga_zqgv8bCNpc7GHuDseEfUeoquqry5/preview",
