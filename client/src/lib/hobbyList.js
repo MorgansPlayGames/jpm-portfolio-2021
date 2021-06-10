@@ -122,51 +122,6 @@ const hobbyList = [
         link: "https://drive.google.com/file/d/1UkCr1Cwz3Owr1w4Tyr4YL6gwugHxEEtX/preview",
         fileType: "mp4",
       },
-      {
-        name: "Rolling Box",
-        subtitle: "Dimention practice",
-        link: "animations/Box.gif",
-      },
-      {
-        name: "Dadada Horse",
-        subtitle: "dadadada",
-        link: "animations/Dadada.gif",
-      },
-      {
-        name: "Wana Fite Bro",
-        subtitle: "Intimidation",
-        link: "animations/Dnd.gif",
-      },
-      {
-        name: "Smokey the Dog",
-        subtitle: "Doesn't fight fires",
-        link: "animations/Doggie.gif",
-      },
-      {
-        name: "Walking Box",
-        subtitle: "How does a box walk?",
-        link: "animations/Doll.gif",
-      },
-      {
-        name: "Dance",
-        subtitle: "Headless?",
-        link: "animations/Flutterbees.gif",
-      },
-      {
-        name: "Pork",
-        subtitle: "*",
-        link: "animations/Pork.gif",
-      },
-      {
-        name: "Strawberry",
-        subtitle: "Creepy",
-        link: "animations/Something.gif",
-      },
-      {
-        name: "I Quit",
-        subtitle: "Wrekd",
-        link: "animations/Tableflip.gif",
-      },
     ],
   },
   {
