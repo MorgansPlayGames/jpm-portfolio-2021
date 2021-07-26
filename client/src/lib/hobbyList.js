@@ -3,8 +3,8 @@ const hobbyList = [
     type: "animation",
     list: [
       {
-        name:"Numbers Carnival Creepu",
-        subtitle: "Creepy carnival animation for Numbers by Brutuu",
+        name:"Numbers Carnival Creepy",
+        subtitle: "Spooky carnival animation for the song Numbers Stations Noise Compilation by Brutuu",
         link:"https://drive.google.com/file/d/1BGd75MZItx9E88PQ9jSgJJi8wY9ZN0w0/preview",
         fileType:"mp4"
       },
