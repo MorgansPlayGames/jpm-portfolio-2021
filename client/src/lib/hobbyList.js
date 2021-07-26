@@ -3,6 +3,84 @@ const hobbyList = [
     type: "animation",
     list: [
       {
+        name:"Numbers Carnival Creepu",
+        subtitle: "Creepy carnival animation for Numbers by Brutuu",
+        link:"https://drive.google.com/file/d/1BGd75MZItx9E88PQ9jSgJJi8wY9ZN0w0/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Fones Cave",
+        subtitle: "full song animation of Fones by Brutuu",
+        link:"https://drive.google.com/file/d/1BTQhHXSrtUVj_XvRXjK3dNV_PzuiQ8xH/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Flower",
+        subtitle: "30 second animation going with the song Kingsroom by Brutuu",
+        link:"https://drive.google.com/file/d/1IWQjU1pFWGjR6p5x4mpA2MlC4V4-B6DM/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Fuzzy Orb",
+        subtitle: "Rotating orb made of particles rotating with geometry nodes.",
+        link:"https://drive.google.com/file/d/1k7OSWX6BxZiVMyvF0gsKuztPIwpV5oEL/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Sine Waves",
+        subtitle: "Under ocean wavey growing mountain with geonodes.",
+        link:"https://drive.google.com/file/d/1vQzUCdl_JYDSEQW65dabrzXyLWPjaMWL/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Cloth Ghost",
+        subtitle: "Cloth physics and lighting used to make a cute ghost figure.",
+        link:"https://drive.google.com/file/d/1hT9nWeTMHrZ85O2HHYVaGgroARLfTcCx/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Particle Username",
+        subtitle: "Colorful particle username animation",
+        link:"https://drive.google.com/file/d/1hT9nWeTMHrZ85O2HHYVaGgroARLfTcCx/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Glass Username",
+        subtitle: "Colorful glass username animation",
+        link:"https://drive.google.com/file/d/1Oba6e5qhC0HL6DKzFXIGGZXJHZuHPtMA/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Particles",
+        subtitle: "Colorful particle effect",
+        link:"https://drive.google.com/file/d/1ssVFn8DA9_fqQqayPHD9HNUa9F0MfA9H/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Exploding Glass",
+        subtitle: "Mesh converted to a volume converted back to a mesh after modification",
+        link:"https://drive.google.com/file/d/1t5PF-YGHsuZwJAI7F7PdS7pnJHlDi1Q_/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Reflecting Wave",
+        subtitle: "Geometry nodes used to reflect an ever expanding wave off the sides of a square",
+        link:"https://drive.google.com/file/d/1yYywmDaxWfzQGMSuuWDORmoaLEKk1OTO/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Sad Geonodes",
+        subtitle: "Geometry nodes and text",
+        link:"https://drive.google.com/file/d/15g8mH2WdyZYeGMd1TWxN2rjF_euUy7g7/preview",
+        fileType:"mp4"
+      },
+      {
+        name:"Geometry Nodes 3",
+        subtitle: "Sonic inspired geometry nodes",
+        link:"https://drive.google.com/file/d/1P2gTTYIVz70i-92fXVrVdhm2CLqev1vm/preview",
+        fileType:"mp4"
+      },
+      {
         name:"Geometry Nodes 2",
         subtitle: "Geometry nodes. Now I can use mathematics to generate graphics",
         link:"https://drive.google.com/file/d/1Kwjus1WRneGHjlI8HqgqjesKdkq-iS_m/preview",

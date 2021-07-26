@@ -18,7 +18,7 @@ function Footer() {
         GitHub
       </a>
       <a
-        href="https://drive.google.com/file/d/1dMKEVudcnbkwMg4aSEkzqBUyEU14pUAY/view?usp=sharing"
+        href="https://docs.google.com/document/d/1qqWsuTGUr_tNZKjUqWaFZM9ZrQ5ajD-uNg9LgbvJ2ZE/edit?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
